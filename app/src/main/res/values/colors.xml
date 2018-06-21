@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Primary styles for buttons, background, app bar, UI-->
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#E040FB</color>
+
+    <!--Additional colors for app-->
+    <color name="White">#FFF</color>
+    <color name="Black">#000</color>
+    <color name="DarkCyan">#0097A7</color>
+    <color name="MediumCyan">#00BCD4</color>
+    <color name="LightCyan">#B2EBF2</color>
+    <color name="DarkGray">#212121</color>
+    <color name="MediumGray">#757575</color>
+    <color name="LightGray">#BDBDBD</color>
+    <color name="AccentPurple">#E040FB</color>
+</resources>

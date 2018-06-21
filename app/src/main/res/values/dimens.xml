@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main used dimensions-->
+    <dimen name="Margin5dp">5dp</dimen>
+    <dimen name="Margin10dp">10dp</dimen>
+    <dimen name="Margin15dp">15dp</dimen>
+    <dimen name="Margin20dp">20dp</dimen>
+    <dimen name="Margin30dp">30dp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
+
+    <!--Divider Lines-->
+    <dimen name="DividerLineHeight">2dp</dimen>
+
+    <!--Circle Images for AlbumArt_Main (when viewing all)-->
+    <dimen name="CircleImageRadius_Main">150dp</dimen>
+    <dimen name="CircleImageBorder_Main">4dp</dimen>
+
+    <!--Circle Images for AlbumArt_Individual (when playing album)-->
+    <dimen name="CircleImageRadius_Individual">250dp</dimen>
+    <dimen name="CircleImageBorder_Individual">4dp</dimen>
+
+</resources>

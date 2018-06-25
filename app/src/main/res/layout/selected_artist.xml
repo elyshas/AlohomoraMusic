@@ -1,51 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
+<!-- SELECTED ARTISTS'S ALBUM (SONGS)-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/LightGray"
-    android:horizontalSpacing="10dp"
-    android:orientation="vertical"
-    android:verticalSpacing="10dp"
-    android:id="@+id/list_item" >
+    android:background="@color/DarkGray">
 
-    <!--&lt;!&ndash;Album Art (Main Circle Images)&ndash;&gt;-->
-    <!--<de.hdodenhof.circleimageview.CircleImageView-->
-        <!--android:id="@+id/albumCover"-->
-        <!--style="@style/AlbumArt_Main"-->
-        <!--app:civ_border_color="@color/MediumGray"-->
-        <!--app:civ_border_width="@dimen/CircleImageBorder_Main" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-    <!--&lt;!&ndash;Divider Line&ndash;&gt;-->
-    <!--<View style="@style/DividerLine_Light" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".9"
+            android:orientation="vertical">
 
-    <!--Artist-->
-    <TextView
-        android:id="@+id/artist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/LightCyan"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
-    <!--Song name-->
-    <TextView
-        android:id="@+id/song"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        android:textColor="@color/DarkGray"
-        android:textStyle="bold"
-        android:textSize="15sp" />
+            <!--Song name-->
+            <TextView
+                android:id="@+id/song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin10dp"
+                android:gravity="top"
+                android:textColor="@color/MediumCyan"
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
-    <!--Song Time-->
-    <TextView
-        android:id="@+id/time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        android:textColor="@color/LightGray"
-        android:textSize="12sp" />
+            <!--Divider Line-->
+            <View style="@style/DividerLine_Song" />
 
-</LinearLayout>
+            <!--Artist name-->
+            <TextView
+                android:id="@+id/artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/Margin10dp"
+                android:textColor="@color/DarkCyan"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <!--Song Time-->
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/LightGray"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <!--Play button-->
+            <Button
+                android:id="@+id/playButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/round_button"
+                android:paddingLeft="3.5dp"
+                android:text="▶"
+                android:textColor="@color/DarkGray"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

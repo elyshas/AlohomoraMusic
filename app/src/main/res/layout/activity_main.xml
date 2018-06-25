@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+
+<!--INITIAL APP PAGE - LISTS ALBUM OPTIONS-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,14 +12,35 @@
     <TextView
         android:id="@+id/wolfChildren"
         style="@style/SectionStyle"
-        android:background="@color/DarkCyan"
-        android:text="Wolf Children - Full Album" />
+        android:background="@color/LightCyan"
+        android:text="Wolf Children: Original Soundtrack" />
+
+    <!--Divider Line-->
+    <View style="@style/DividerLine_Dark" />
 
     <TextView
         android:id="@+id/ironAndWine"
         style="@style/SectionStyle"
-        android:background="@color/DarkCyan"
-        android:text="Iron and Wine - The Shepherd's Dog" />
+        android:background="@color/LightCyan"
+        android:text="Iron and Wine: The Shepherd's Dog" />
+
+    <!--Divider Line-->
+    <View style="@style/DividerLine_Dark" />
+
+    <TextView
+        android:id="@+id/typeONegative"
+        style="@style/SectionStyle"
+        android:background="@color/LightCyan"
+        android:text="Type O Negative: October Rust" />
+
+    <!--Divider Line-->
+    <View style="@style/DividerLine_Dark" />
+
+    <TextView
+        android:id="@+id/eluveitie"
+        style="@style/SectionStyle"
+        android:background="@color/LightCyan"
+        android:text="Eluveitie: Origins" />
 
 </LinearLayout>
 

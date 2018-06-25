@@ -11,7 +11,7 @@ import java.util.ArrayList;
 /**
  * Created by elysh on 6/16/2018.
  */
-
+//WORKS WITH SELECTED_ARTIST.XML
 public class ArtistAdapter extends ArrayAdapter<Artist> {
 
     public ArtistAdapter(Context context, ArrayList<Artist> artist) {

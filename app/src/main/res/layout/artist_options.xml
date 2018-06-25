@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<android.support.v7.app.AppCompatDelegateImplV9.ListMenuDecorView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<!--WORKS WITH ARTIST#ACTIVITY.JAVA - FOR LIST OF SONGS INSIDE SELECTED ALBUM-->
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/list"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_gravity="center_horizontal"
-    android:background="@color/LightCyan" />
+    android:background="@color/LightGray" />

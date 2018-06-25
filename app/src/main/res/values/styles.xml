@@ -8,44 +8,32 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AlbumArt_Main">
-        <item name="android:layout_width">@dimen/CircleImageRadius_Main</item>
-        <item name="android:layout_height">@dimen/CircleImageRadius_Main</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:layout_marginTop">@dimen/Margin15dp</item>
+    <!--Section Style - Main Page-->
+    <style name="SectionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/DarkCyan</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
-    <style name="AlbumArt_Individual">
-        <!--<item name=""></item>-->
-    </style>
-
-    <!-- Dark Divider Line-->
+    <!-- Main App Selection - Dark Long Divider Lines-->
     <style name="DividerLine_Dark">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">@dimen/DividerLineHeight</item>
-        <item name="android:layout_marginTop">@dimen/Margin10dp</item>
-        <item name="android:layout_marginBottom">@dimen/Margin10dp</item>
         <item name="android:background">@color/DarkGray</item>
     </style>
 
-    <!-- Light Divider Line-->
-    <style name="DividerLine_Light">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">@dimen/DividerLineHeight</item>
-        <item name="android:layout_marginTop">@dimen/Margin10dp</item>
-        <item name="android:layout_marginBottom">@dimen/Margin10dp</item>
-        <item name="android:background">@color/LightGray</item>
-    </style>
-
-    <!--Section Style-->
-    <style name="SectionStyle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/list_item_height</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">16dp</item>
-        <item name="android:textColor">@color/LightCyan</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    <!-- Song Selection - Light Small Divider Lines-->
+    <style name="DividerLine_Song">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/MediumGray</item>
     </style>
 
 </resources>

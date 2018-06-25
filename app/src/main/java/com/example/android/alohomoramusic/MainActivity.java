@@ -11,6 +11,7 @@ import android.widget.TextView;
  * Created by elysh on 6/16/2018.
  */
 
+// INITIAL APP PAGE, LINKING TO ARTIST#ACTIVITY AND ACTIVITY_MAIN.XML
 public class MainActivity extends AppCompatActivity {
 
         @Override
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
             setContentView(R.layout.activity_main);
 
+            //Wolf Children Album
             TextView wolfChildrenAlbum = (TextView) findViewById(R.id.wolfChildren);
 
             wolfChildrenAlbum.setOnClickListener(new OnClickListener() {
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+            //Iron & Wine Album
             TextView ironAndWineAlbum = (TextView) findViewById(R.id.ironAndWine);
 
             ironAndWineAlbum.setOnClickListener(new OnClickListener() {
@@ -42,6 +45,36 @@ public class MainActivity extends AppCompatActivity {
                     Intent ironAndWineIntent = new Intent(MainActivity.this, Artist2Activity.class);
 
                     startActivity(ironAndWineIntent);
+                }
+            });
+
+
+            //Type O Negative Album
+            TextView typeONegativeAlbum = (TextView) findViewById(R.id.typeONegative);
+
+            typeONegativeAlbum.setOnClickListener(new OnClickListener() {
+
+                @Override
+                public void onClick(View view) {
+
+                    Intent typeONegativeIntent = new Intent(MainActivity.this, Artist3Activity.class);
+
+                    startActivity(typeONegativeIntent);
+                }
+            });
+
+
+            //Eluveitie Album
+            TextView eluveitieAlbum = (TextView) findViewById(R.id.eluveitie);
+
+            eluveitieAlbum.setOnClickListener(new OnClickListener() {
+
+                @Override
+                public void onClick(View view) {
+
+                    Intent eluveitieIntent = new Intent(MainActivity.this, Artist4Activity.class);
+
+                    startActivity(eluveitieIntent);
                 }
             });
 

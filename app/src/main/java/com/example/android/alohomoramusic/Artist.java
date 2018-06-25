@@ -4,12 +4,11 @@ package com.example.android.alohomoramusic;
  * Created by elysh on 6/16/2018.
  */
 
+// WORKS WITH ARTIST#ACTIVITY TO EXTEND LIST INFORMATION/FORMAT
 public class Artist {
 
-    /** Was English translation for the word (position bottom)*/
     private String mSongName;
 
-    /** Was Miwok translation for the word (position top)*/
     private String mArtistName;
 
     private String mSongTime;

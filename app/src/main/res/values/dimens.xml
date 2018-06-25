@@ -9,7 +9,7 @@
     <dimen name="list_item_height">88dp</dimen>
 
     <!--Divider Lines-->
-    <dimen name="DividerLineHeight">2dp</dimen>
+    <dimen name="DividerLineHeight">3dp</dimen>
 
     <!--Circle Images for AlbumArt_Main (when viewing all)-->
     <dimen name="CircleImageRadius_Main">150dp</dimen>

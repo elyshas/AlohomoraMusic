@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/song_playing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/DarkGray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--Image Art-->
+        <ImageView
+            android:id="@+id/selectedAlbumArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--Song name-->
+        <TextView
+            android:id="@+id/selectedSong"
+            style="@style/SongNameTextView" />
+
+        <!--Divider Line-->
+        <View style="@style/DividerLine_Song" />
+
+        <!--Artist name-->
+        <TextView
+            android:id="@+id/selectedArtist"
+            style="@style/ArtistNameTextView" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textColor="@color/AccentGreen">
+
+            <Button
+                android:id="@+id/PreviousSong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Previous"
+                android:textColor="@color/AccentGreen"
+                android:backgroundTint="@color/MediumGray"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/PlayOrPauseSong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play / Pause"
+                android:textColor="@color/AccentGreen"
+                android:backgroundTint="@color/MediumGray"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/NextSong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="@color/AccentGreen"
+                android:backgroundTint="@color/MediumGray"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

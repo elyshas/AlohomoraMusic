@@ -1,3 +1,16 @@
 <resources>
+    <!--App Homepage Selection Options-->
     <string name="app_name">Alohomora Music</string>
+    <string name="wolfChildren_AlbumName">Wolf Children: Full Soundtrack</string>
+    <string name="ironAndWine_AlbumName">Iron and Wine: Shep. Dog</string>
+    <string name="typeONegative_AlbumName">Type O Negative: Oct. Rust</string>
+    <string name="eluveitie_AlbumName">Eluveitie: Origins</string>
+
+    <!--Album Names -After Selected-->
+    <string name="wolfChildren_AlbumSelected">Wolf Children: Original Soundtrack</string>
+    <string name="ironAndWine_AlbumSelected">Iron and Wine: The Shepherd\'s Dog</string>
+    <string name="typeONegative_AlbumSelected">Type O Negative: October Rust</string>
+    <string name="eluveitie_AlbumSelected">Eluveitie: Origins</string>
+
+    <string name="Play">▶</string>
 </resources>

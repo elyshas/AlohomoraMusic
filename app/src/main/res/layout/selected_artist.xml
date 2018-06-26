@@ -15,22 +15,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/Margin10dp"
             android:layout_weight=".9"
             android:orientation="vertical">
-
 
             <!--Song name-->
             <TextView
                 android:id="@+id/song"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/Margin10dp"
-                android:gravity="top"
-                android:textColor="@color/MediumCyan"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                style="@style/SongNameTextView" />
 
             <!--Divider Line-->
             <View style="@style/DividerLine_Song" />
@@ -38,12 +30,7 @@
             <!--Artist name-->
             <TextView
                 android:id="@+id/artist"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/Margin10dp"
-                android:textColor="@color/DarkCyan"
-                android:textSize="15sp" />
+                style="@style/ArtistNameTextView" />
 
         </LinearLayout>
 
@@ -53,16 +40,13 @@
             android:layout_weight="1.5"
             android:gravity="center_vertical"
             android:orientation="vertical"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp">
+            android:paddingLeft="@dimen/Padding15dp"
+            android:paddingRight="@dimen/Padding15dp">
 
             <!--Song Time-->
             <TextView
                 android:id="@+id/time"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/LightGray"
-                android:textSize="15sp" />
+                style="@style/SongTimeTextView" />
 
         </LinearLayout>
 
@@ -75,14 +59,9 @@
 
             <!--Play button-->
             <Button
+                style="@style/ButtonView"
                 android:id="@+id/playButton"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/round_button"
-                android:paddingLeft="3.5dp"
-                android:text="▶"
-                android:textColor="@color/DarkGray"
-                android:textSize="20sp" />
+                android:text="@string/Play" />
 
         </LinearLayout>
 

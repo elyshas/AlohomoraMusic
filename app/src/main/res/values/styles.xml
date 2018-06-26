@@ -1,8 +1,7 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!--Customized application theme-->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -13,14 +12,14 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">80dp</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">@dimen/SectionPadding</item>
         <item name="android:textColor">@color/DarkCyan</item>
+        <item name="android:textSize">@dimen/Font23sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
     <!-- Main App Selection - Dark Long Divider Lines-->
-    <style name="DividerLine_Dark">
+    <style name="DividerLine_Albums">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">@dimen/DividerLineHeight</item>
         <item name="android:background">@color/DarkGray</item>
@@ -28,12 +27,48 @@
 
     <!-- Song Selection - Light Small Divider Lines-->
     <style name="DividerLine_Song">
-        <item name="android:layout_width">125dp</item>
-        <item name="android:layout_height">2dp</item>
-        <item name="android:layout_marginTop">2dp</item>
-        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_width">@dimen/DividerLineWidth_Sm</item>
+        <item name="android:layout_height">@dimen/DividerLineHeight_Sm</item>
+        <item name="android:layout_marginTop">@dimen/Margin2dp</item>
+        <item name="android:layout_marginBottom">@dimen/Margin2dp</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:background">@color/MediumGray</item>
+    </style>
+
+    <style name="SongNameTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/Margin10dp</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textColor">@color/MediumCyan</item>
+        <item name="android:textSize">@dimen/Font15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArtistNameTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/Margin10dp</item>
+        <item name="android:textColor">@color/DarkCyan</item>
+        <item name="android:textSize">@dimen/Font15sp</item>
+    </style>
+
+    <style name="SongTimeTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/LightGray</item>
+        <item name="android:textSize">@dimen/Font15sp</item>
+    </style>
+
+    <style name="ButtonView">
+        <item name="android:layout_width">@dimen/PlayButtonSize</item>
+        <item name="android:layout_height">@dimen/PlayButtonSize</item>
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:paddingLeft">@dimen/PlayButtonPadding</item>
+        <item name="android:textColor">@color/DarkGray</item>
+        <item name="android:textSize">@dimen/Font20sp</item>
     </style>
 
 </resources>

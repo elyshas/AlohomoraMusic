@@ -13,34 +13,34 @@
         android:id="@+id/wolfChildren"
         style="@style/SectionStyle"
         android:background="@color/LightCyan"
-        android:text="Wolf Children: Original Soundtrack" />
+        android:text="@string/wolfChildren_AlbumSelected" />
 
     <!--Divider Line-->
-    <View style="@style/DividerLine_Dark" />
+    <View style="@style/DividerLine_Albums" />
 
     <TextView
         android:id="@+id/ironAndWine"
         style="@style/SectionStyle"
         android:background="@color/LightCyan"
-        android:text="Iron and Wine: The Shepherd's Dog" />
+        android:text="@string/ironAndWine_AlbumSelected" />
 
     <!--Divider Line-->
-    <View style="@style/DividerLine_Dark" />
+    <View style="@style/DividerLine_Albums" />
 
     <TextView
         android:id="@+id/typeONegative"
         style="@style/SectionStyle"
         android:background="@color/LightCyan"
-        android:text="Type O Negative: October Rust" />
+        android:text="@string/typeONegative_AlbumSelected" />
 
     <!--Divider Line-->
-    <View style="@style/DividerLine_Dark" />
+    <View style="DividerLine_Albums" />
 
     <TextView
         android:id="@+id/eluveitie"
         style="@style/SectionStyle"
         android:background="@color/LightCyan"
-        android:text="Eluveitie: Origins" />
+        android:text="@string/eluveitie_AlbumSelected" />
 
 </LinearLayout>
 

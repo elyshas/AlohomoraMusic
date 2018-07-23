@@ -56,7 +56,9 @@
             <Button
                 style="@style/ButtonView"
                 android:id="@+id/playButton"
-                android:text="@string/Play" />
+                android:text="@string/Play"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
 
         </LinearLayout>
 

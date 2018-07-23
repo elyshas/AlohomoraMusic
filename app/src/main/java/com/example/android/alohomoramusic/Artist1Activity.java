@@ -7,6 +7,7 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
@@ -96,13 +97,14 @@ public class Artist1Activity extends AppCompatActivity {
         ArtistAdapter adapter = new ArtistAdapter(this, songList);
 
         ListView listView = findViewById(R.id.list);
-        //listView.addHeaderView(imageHeaderView);
-        listView.setAdapter(adapter);
+
+        listView.setAdapter(adapter); listView.addHeaderView(imageHeaderView, null, false);
 
         /**ADD TO OTHER ALBUM ACTIVITIES**/
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Log.d("Artist1Activity", "Song clicked!!!");
                 releaseMediaPlayer();
 
                 Artist song = songList.get(position);

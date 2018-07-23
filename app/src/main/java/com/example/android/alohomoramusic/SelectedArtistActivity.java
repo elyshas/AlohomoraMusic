@@ -1,49 +1,53 @@
-//package com.example.android.alohomoramusic;
-//
-//import android.content.Intent;
-//import android.graphics.BitmapFactory;
-//import android.graphics.Color;
-//import android.os.Bundle;
-//import android.view.View.OnClickListener;
-//import android.view.View;
-//import android.widget.ImageView;
-//import android.widget.ListView;
-//import android.widget.TextView;
+package com.example.android.alohomoramusic;
+/**WORK IN PROGRESS - NOT PART OF GRADED PROJECT!**/
+//TODO: Link to XML, selected song should gain working play, pause, next, and previous buttons. Needs to also have a back button to take user to main page. Needs to also stop playing if user leaves.
+
+import android.content.Intent;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.AdapterView;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 /**
  * Created by elysh on 6/26/2018.
  */
 
-//public class SelectedArtistActivity {
-
+//public class SelectedArtistActivity extends AppCompatActivity {
+//
 //    @Override
 //    protected void onCreate(Bundle savedInstanceState) {
 //        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.currentlyPlaying);
 //
-//        setContentView(R.layout.selected_song);
+//        TextView selectedSongInAlbum = findViewById(R.id.selected_song);
 //
-//
-//        TextView selectedSongInAlbum = findViewById(R.id.????);
 //
 //        selectedSongInAlbum.setOnClickListener(new OnClickListener() {
 //
 //        ImageView albumImageView = new ImageView(this);//use getActivity() on fragment
-//        albumImageView.setBackgroundColor(Color.parseColor("#212121"));
-//        albumImageView.setImageBitmap(BitmapFactory.decodeResource(getResources(),
+////      albumImageView.setBackgroundColor(Color.parseColor("#212121"));
+//        albumImageView.setImageBitmap(BitmapFactory.decodeResource(
+//
+//            getResources(),
+//
 //            R.drawable.??));
 //
 //
-//        ListView listView = findViewById(R.id.songInfo);
-//        listView.addHeaderView(albumImageView);
-//
 //            @Override
-//            public void onClick(View view) {
-//
-//                Intent selectedSongIntent = new Intent(SelectedArtistActivity.this, Artist1Activity.class);
-//
-//                startActivity(selectedSongIntent);
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                Intent intent = new Intent(MainActivity.this, SelectedArtistActivity.class);
+//                if (getIntent() != null) {
+//                    intent.putExtra("position", position);
+//                    intent.putExtra("testItem", artists.get(position));
+//                }
+//                startActivity(intent);
 //            }
 //        });
 //
 //
+//    }
 //}

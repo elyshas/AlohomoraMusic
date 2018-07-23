@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
+//*** Sections of code and processes mimicked from Udacity's project (Miwok Translation App) ***//
+
 /**
  * Created by elysh on 6/16/2018.
  */

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--WORK IN PROGRESS - NOT PART OF GRADED PROJECT!-->
+<!--TODO: Link to Java, when song selected, open to this and play. Create functional buttons and ability to go back and to home easily.-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/song_playing"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/DarkGray">
 
     <LinearLayout
+        android:id="@+id/currentlyPlaying"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"

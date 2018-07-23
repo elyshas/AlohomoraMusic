@@ -14,14 +14,12 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:padding">@dimen/SectionPadding</item>
         <item name="android:textColor">@color/DarkCyan</item>
-        <item name="android:textSize">@dimen/Font23sp</item>
+        <item name="android:textSize">@dimen/Font20sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <!-- Main App Selection - Dark Long Divider Lines-->
     <style name="DividerLine_Albums">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">@dimen/DividerLineHeight</item>
         <item name="android:background">@color/DarkGray</item>
     </style>
 
@@ -65,9 +63,9 @@
     <style name="ButtonView">
         <item name="android:layout_width">@dimen/PlayButtonSize</item>
         <item name="android:layout_height">@dimen/PlayButtonSize</item>
-        <item name="android:background">@drawable/round_button</item>
+        <item name="android:background">@drawable/green_play_button</item>
         <item name="android:paddingLeft">@dimen/PlayButtonPadding</item>
-        <item name="android:textColor">@color/DarkGray</item>
+        <!--<item name="android:textColor">@color/DarkGray</item>-->
         <item name="android:textSize">@dimen/Font20sp</item>
     </style>
 

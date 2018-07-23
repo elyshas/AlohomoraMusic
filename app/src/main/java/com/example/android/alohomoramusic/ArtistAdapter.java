@@ -8,11 +8,13 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import java.util.ArrayList;
 
+//*** Sections of code and processes mimicked from Udacity's project (Miwok Translation App) ***//
+
 /**
  * Created by elysh on 6/16/2018.
  */
 
-public class ArtistAdapter extends ArrayAdapter<Artist> {
+public class ArtistAdapter extends ArrayAdapter <Artist> {
 
     public ArtistAdapter(Context context, ArrayList<Artist> artist) {
         super(context, 0, artist);

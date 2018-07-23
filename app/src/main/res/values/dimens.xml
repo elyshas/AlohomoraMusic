@@ -18,7 +18,6 @@
     <!--Font sizes-->
     <dimen name="Font15sp">15sp</dimen>
     <dimen name="Font20sp">20sp</dimen>
-    <dimen name="Font23sp">23sp</dimen>
 
     <!--Divider Line Main App Page-->
     <dimen name="DividerLineHeight">3dp</dimen>

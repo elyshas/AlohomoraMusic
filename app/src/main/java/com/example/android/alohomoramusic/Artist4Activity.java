@@ -31,6 +31,8 @@ public class Artist4Activity extends AppCompatActivity {
 
         ArrayList<Artist> songList = new ArrayList<>();
 
+        //NOTICE: I do not own any rights to these songs. They were gathered from purchased CDs and are not to be used or distributed publicly - Only used for classroom purposes.
+
 //        songList.add(new Artist ("Origins", "Eluveitie", "2:13 min"));
 //        songList.add(new Artist ("The Nameless", "Eluveitie", "4:13 min"));
 //        songList.add(new Artist ("From Darkness", "Eluveitie", "4:12 min"));

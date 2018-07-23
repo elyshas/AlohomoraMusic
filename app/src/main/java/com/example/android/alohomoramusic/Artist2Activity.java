@@ -31,7 +31,9 @@ public class Artist2Activity extends AppCompatActivity {
                 R.drawable.iron_and_wine_shepherds_dog_album));
 
         ArrayList<Artist> songList = new ArrayList<>();
-//
+
+        //NOTICE: I do not own any rights to these songs. They were gathered from purchased CDs and are not to be used or distributed publicly - Only used for classroom purposes.
+
 //        songList.add(new Artist ("Pagan Angel/Borrowed Car", "Iron & Wine", "4:33 min"));
 //        songList.add(new Artist ("White Tooth Man", "Iron & Wine", "3:57 min"));
 //        songList.add(new Artist ("Lovesong of the Buzzard", "Iron & Wine", "4:26 min"));

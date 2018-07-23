@@ -67,6 +67,7 @@ public class Artist1Activity extends AppCompatActivity {
 
         final ArrayList<Artist> songList = new ArrayList<>();
 
+        //NOTICE: I do not own any rights to these songs. They were gathered from purchased CDs and are not to be used or distributed publicly - Only used for classroom purposes.
         songList.add(new Artist("First Echo", "Wolf Children", "1:30 min", R.raw.wc_first_echo));
         songList.add(new Artist("Circulation", "Wolf Children", "1:51 min", R.raw.wc_circulation));
         songList.add(new Artist("Lullaby in the Peaceful Light", "Wolf Children", "3:57 min", R.raw.wc_lullaby_in_peaceful_light));

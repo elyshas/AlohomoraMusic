@@ -50,6 +50,8 @@ public class Artist3Activity extends AppCompatActivity {
 
         ArrayList<Artist> songList = new ArrayList<>();
 
+        //NOTICE: I do not own any rights to these songs. They were gathered from purchased CDs and are not to be used or distributed publicly - Only used for classroom purposes.
+
 //        songList.add(new Artist ("Bad Ground", "Type O Negative", "0:38 min"));
 //        songList.add(new Artist ("Untitled", "Type O Negative", "0:21 min"));
 //        songList.add(new Artist ("Love You To Death", "Type O Negative", "7:09 min"));

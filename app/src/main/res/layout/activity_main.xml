@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--INITIAL APP PAGE - LISTS ALBUM OPTIONS-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,38 +8,64 @@
     android:orientation="vertical"
     tools:context="com.example.android.alohomoramusic.MainActivity">
 
-    <TextView
-        android:id="@+id/wolfChildren"
-        style="@style/SectionStyle"
-        android:background="@color/LightCyan"
-        android:text="Wolf Children: Original Soundtrack" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightCyan">
+            <TextView
+                android:id="@+id/wolfChildren"
+                style="@style/SectionStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/wolfChildren_AlbumSelected" />
+    </FrameLayout>
 
     <!--Divider Line-->
-    <View style="@style/DividerLine_Dark" />
+    <View style="@style/DividerLine_Albums"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/DividerLineHeight" />
 
-    <TextView
-        android:id="@+id/ironAndWine"
-        style="@style/SectionStyle"
-        android:background="@color/LightCyan"
-        android:text="Iron and Wine: The Shepherd's Dog" />
-
-    <!--Divider Line-->
-    <View style="@style/DividerLine_Dark" />
-
-    <TextView
-        android:id="@+id/typeONegative"
-        style="@style/SectionStyle"
-        android:background="@color/LightCyan"
-        android:text="Type O Negative: October Rust" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightCyan">
+            <TextView
+                android:id="@+id/ironAndWine"
+                style="@style/SectionStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ironAndWine_AlbumSelected" />
+    </FrameLayout>
 
     <!--Divider Line-->
-    <View style="@style/DividerLine_Dark" />
+    <View style="@style/DividerLine_Albums"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/DividerLineHeight" />
 
-    <TextView
-        android:id="@+id/eluveitie"
-        style="@style/SectionStyle"
-        android:background="@color/LightCyan"
-        android:text="Eluveitie: Origins" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightCyan">
+            <TextView
+                android:id="@+id/typeONegative"
+                style="@style/SectionStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/typeONegative_AlbumSelected" />
+    </FrameLayout>
+
+    <!--Divider Line-->
+    <View style="@style/DividerLine_Albums"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/DividerLineHeight" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightCyan">
+            <TextView
+                android:id="@+id/eluveitie"
+                style="@style/SectionStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/eluveitie_AlbumSelected" />
+    </FrameLayout>
 
 </LinearLayout>
 

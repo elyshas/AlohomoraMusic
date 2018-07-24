@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.alohomoramusic">
-
+    <!--ic_launcher image is a customized couple of Harry Potter images taken from Google, combined in Photoshop and altered in color/size-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait">
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +20,7 @@
 
         <activity
             android:name=".Artist1Activity"
-            android:label="Wolf Children: Full Soundtrack"
+            android:label="@string/wolfChildren_AlbumName"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -30,7 +29,7 @@
 
         <activity
             android:name=".Artist2Activity"
-            android:label="Iron and Wine: Shep. Dog"
+            android:label="@string/ironAndWine_AlbumName"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -39,7 +38,7 @@
 
         <activity
             android:name=".Artist3Activity"
-            android:label="Type O Negative: Oct. Rust"
+            android:label="@string/typeONegative_AlbumName"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -48,7 +47,7 @@
 
         <activity
             android:name=".Artist4Activity"
-            android:label="Eluveitie: Origins"
+            android:label="@string/eluveitie_AlbumName"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

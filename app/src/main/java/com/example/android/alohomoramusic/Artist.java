@@ -1,5 +1,7 @@
 package com.example.android.alohomoramusic;
 
+//*** Sections of code and processes mimicked from Udacity's project (Miwok Translation App) ***//
+
 /**
  * Created by elysh on 6/16/2018.
  */
@@ -13,10 +15,13 @@ public class Artist {
 
     private String mSongTime;
 
-    public Artist(String SongName, String ArtistName, String SongTime) {
+    private int mAudioResourceId;
+
+    public Artist(String SongName, String ArtistName, String SongTime, int audioResourceId) {
         mSongName = SongName;
         mArtistName = ArtistName;
         mSongTime = SongTime;
+        mAudioResourceId = audioResourceId;
     }
 
     public String getSongName() {
@@ -27,7 +32,10 @@ public class Artist {
         return mArtistName;
     }
 
-    public String getSongTime() { return mSongTime;
+    public String getSongTime() { return mSongTime; }
+
+    public int getAudioResourceId() {
+        return mAudioResourceId;
     }
 
 }

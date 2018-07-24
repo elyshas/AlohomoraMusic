@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
+//*** Sections of code and processes mimicked from Udacity's project (Miwok Translation App) ***//
+
 /**
  * Created by elysh on 6/16/2018.
  */
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_main);
 
             //Wolf Children Album
-            TextView wolfChildrenAlbum = (TextView) findViewById(R.id.wolfChildren);
+            TextView wolfChildrenAlbum = findViewById(R.id.wolfChildren);
 
             wolfChildrenAlbum.setOnClickListener(new OnClickListener() {
 
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             });
 
             //Iron & Wine Album
-            TextView ironAndWineAlbum = (TextView) findViewById(R.id.ironAndWine);
+            TextView ironAndWineAlbum = findViewById(R.id.ironAndWine);
 
             ironAndWineAlbum.setOnClickListener(new OnClickListener() {
 
@@ -50,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             //Type O Negative Album
-            TextView typeONegativeAlbum = (TextView) findViewById(R.id.typeONegative);
+            TextView typeONegativeAlbum = findViewById(R.id.typeONegative);
 
             typeONegativeAlbum.setOnClickListener(new OnClickListener() {
 
@@ -65,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             //Eluveitie Album
-            TextView eluveitieAlbum = (TextView) findViewById(R.id.eluveitie);
+            TextView eluveitieAlbum = findViewById(R.id.eluveitie);
 
             eluveitieAlbum.setOnClickListener(new OnClickListener() {
 

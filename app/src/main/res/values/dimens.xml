@@ -11,9 +11,13 @@
     <dimen name="SectionPadding">16dp</dimen>
     <dimen name="SectionHeight">80dp</dimen>
 
-    <!--Play Button-->
-    <dimen name="PlayButtonSize">40dp</dimen>
-    <dimen name="PlayButtonPadding">3.5dp</dimen>
+    <!--Play "Button"-->
+    <dimen name="PlayArrowSize">50dp</dimen>
+    <dimen name="PlayArrowPadding">6dp</dimen>
+
+    <!--For PLay Circle button if used later-->
+    <!--<dimen name="PlayButtonSize">40dp</dimen>-->
+    <!--<dimen name="PlayButtonPadding">3.5dp</dimen>-->
 
     <!--Font sizes-->
     <dimen name="Font15sp">15sp</dimen>

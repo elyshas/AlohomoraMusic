@@ -66,6 +66,7 @@
         <item name="android:gravity">center</item>
         <item name="android:paddingLeft">@dimen/PlayArrowPadding</item>
         <item name="android:textSize">@dimen/Font20sp</item>
+        <item name="android:textColor">@color/AccentGreen</item>
     </style>
 
     <!--FOR PLAY BUTTON IF IMPLEMENTED LATER-->

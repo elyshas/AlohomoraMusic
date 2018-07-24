@@ -69,14 +69,4 @@
         <item name="android:textColor">@color/AccentGreen</item>
     </style>
 
-    <!--FOR PLAY BUTTON IF IMPLEMENTED LATER-->
-    <!--<style name="ButtonView">-->
-        <!--<item name="android:layout_width">@dimen/PlayButtonSize</item>-->
-        <!--<item name="android:layout_height">@dimen/PlayButtonSize</item>-->
-        <!--<item name="android:background">@drawable/green_play_button</item>-->
-        <!--<item name="android:paddingLeft">@dimen/PlayButtonPadding</item>-->
-        <!--&lt;!&ndash;<item name="android:textColor">@color/DarkGray</item>&ndash;&gt;-->
-        <!--<item name="android:textSize">@dimen/Font20sp</item>-->
-    <!--</style>-->
-
 </resources>

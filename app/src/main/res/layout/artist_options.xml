@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--WORKS WITH ARTIST#ACTIVITY.JAVA - FOR LIST OF SONGS INSIDE SELECTED ALBUM-->
+<!--WORKS WITH SELECTED ARTIST(#)ACTIVITY.JAVA - FOR LIST OF SONGS INSIDE SELECTED ALBUM-->
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/list"
     android:layout_width="match_parent"

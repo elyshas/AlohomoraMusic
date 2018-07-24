@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--INITIAL APP PAGE - LISTS ALBUM OPTIONS-->
+<!--Main Layout-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,64 +10,76 @@
     android:orientation="vertical"
     tools:context="com.example.android.alohomoramusic.MainActivity">
 
+    <!--Frame Layout for Wolf Children-->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/LightCyan">
-            <TextView
-                android:id="@+id/wolfChildren"
-                style="@style/SectionStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/wolfChildren_AlbumSelected" />
+
+        <TextView
+            android:id="@+id/wolfChildren"
+            style="@style/SectionStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/wolfChildren_AlbumSelected" />
     </FrameLayout>
 
-    <!--Divider Line-->
-    <View style="@style/DividerLine_Albums"
+    <!--Divider Line #1-->
+    <View
+        style="@style/DividerLine_Albums"
         android:layout_width="fill_parent"
         android:layout_height="@dimen/DividerLineHeight" />
 
+    <!--Frame Layout for Iron & Wine-->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/LightCyan">
-            <TextView
-                android:id="@+id/ironAndWine"
-                style="@style/SectionStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/ironAndWine_AlbumSelected" />
+
+        <TextView
+            android:id="@+id/ironAndWine"
+            style="@style/SectionStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/ironAndWine_AlbumSelected" />
     </FrameLayout>
 
-    <!--Divider Line-->
-    <View style="@style/DividerLine_Albums"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/DividerLineHeight" />
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/LightCyan">
-            <TextView
-                android:id="@+id/typeONegative"
-                style="@style/SectionStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/typeONegative_AlbumSelected" />
-    </FrameLayout>
-
-    <!--Divider Line-->
-    <View style="@style/DividerLine_Albums"
+    <!--Divider Line #2-->
+    <View
+        style="@style/DividerLine_Albums"
         android:layout_width="fill_parent"
         android:layout_height="@dimen/DividerLineHeight" />
 
+    <!--Frame Layout for Type O Negative-->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/LightCyan">
-            <TextView
-                android:id="@+id/eluveitie"
-                style="@style/SectionStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/eluveitie_AlbumSelected" />
+
+        <TextView
+            android:id="@+id/typeONegative"
+            style="@style/SectionStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/typeONegative_AlbumSelected" />
     </FrameLayout>
 
+    <!--Divider Line #3-->
+    <View
+        style="@style/DividerLine_Albums"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/DividerLineHeight" />
+
+    <!--Frame Layout for Eluveitie-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightCyan">
+
+        <TextView
+            android:id="@+id/eluveitie"
+            style="@style/SectionStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/eluveitie_AlbumSelected" />
+    </FrameLayout>
+
+<!--Close Main Layout-->
 </LinearLayout>
 

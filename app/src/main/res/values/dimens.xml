@@ -15,10 +15,6 @@
     <dimen name="PlayArrowSize">50dp</dimen>
     <dimen name="PlayArrowPadding">6dp</dimen>
 
-    <!--For PLay Circle button if used later-->
-    <!--<dimen name="PlayButtonSize">40dp</dimen>-->
-    <!--<dimen name="PlayButtonPadding">3.5dp</dimen>-->
-
     <!--Font sizes-->
     <dimen name="Font15sp">15sp</dimen>
     <dimen name="Font20sp">20sp</dimen>

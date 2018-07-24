@@ -1,72 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- SELECTED ARTISTS'S ALBUM (SONGS)-->
+<!-- SELECTED ARTISTS'S ALBUM (CHOSEN ALBUM WITH SONGS)-->
+<!--Main Layout-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/list_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:background="@color/DarkGray">
+    android:background="@color/DarkGray"
+    android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="@dimen/Margin10dp"
-            android:layout_weight=".9"
-            android:orientation="vertical">
-            <!--Song name-->
-            <TextView
-                android:id="@+id/song"
-                style="@style/SongNameTextView" />
+    <!--Album Name and Song Name Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/Margin10dp"
+        android:layout_weight=".9"
+        android:orientation="vertical">
 
-            <!--Divider Line-->
-            <View style="@style/DividerLine_Song" />
+        <!--Song name-->
+        <TextView
+            android:id="@+id/song"
+            style="@style/SongNameTextView" />
 
-            <!--Artist name-->
-            <TextView
-                android:id="@+id/artist"
-                style="@style/ArtistNameTextView" />
+        <!--Divider Line Between Album and Song-->
+        <View style="@style/DividerLine_Song" />
 
-        </LinearLayout>
+        <!--Artist name-->
+        <TextView
+            android:id="@+id/artist"
+            style="@style/ArtistNameTextView" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1.5"
-            android:gravity="center_vertical"
-            android:orientation="vertical"
-            android:paddingLeft="@dimen/Padding15dp"
-            android:paddingRight="@dimen/Padding15dp">
-
-            <!--Song Time-->
-            <TextView
-                android:id="@+id/time"
-                style="@style/SongTimeTextView" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1.7"
-            android:gravity="center_vertical"
-            android:orientation="vertical">
-
-            <TextView
-                style="@style/PlayArrow"
-                android:id="@+id/playButton"
-                android:text="@string/Play">
-            </TextView>
-
-            <!--TODO: Add in a button that plays and pauses music OR instead implement separate activity and java to show playing song-->
-            <!--&lt;!&ndash;Play button&ndash;&gt;-->
-            <!--<Button-->
-                <!--style="@style/ButtonView"-->
-                <!--android:id="@+id/playButton"-->
-                <!--android:text="@string/Play"-->
-                <!--android:focusable="false"-->
-                <!--android:focusableInTouchMode="false" />-->
-
-        </LinearLayout>
-
+        <!--Close Album Name and Song Name Layout-->
     </LinearLayout>
+
+    <!--Song Time Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/Padding15dp"
+        android:paddingRight="@dimen/Padding15dp">
+
+        <!--Song Time-->
+        <TextView
+            android:id="@+id/time"
+            style="@style/SongTimeTextView" />
+
+        <!--Close Song Time Layout-->
+    </LinearLayout>
+
+    <!--Play Arrow Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.7"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/playButton"
+            style="@style/PlayArrow"
+            android:text="@string/Play"/>
+
+    <!--Close Play Arrow Layout-->
+    </LinearLayout>
+
+<!--Close Main Layout-->
+</LinearLayout>

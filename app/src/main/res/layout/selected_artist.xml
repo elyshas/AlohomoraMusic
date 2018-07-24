@@ -30,7 +30,7 @@
             android:id="@+id/artist"
             style="@style/ArtistNameTextView" />
 
-        <!--Close Album Name and Song Name Layout-->
+    <!--Close Album Name and Song Name Layout-->
     </LinearLayout>
 
     <!--Song Time Layout-->
@@ -48,7 +48,7 @@
             android:id="@+id/time"
             style="@style/SongTimeTextView" />
 
-        <!--Close Song Time Layout-->
+    <!--Close Song Time Layout-->
     </LinearLayout>
 
     <!--Play Arrow Layout-->
